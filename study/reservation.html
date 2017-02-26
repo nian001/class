@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			body {
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color: #000;
+				padding-top: 42px;
+				padding-bottom: 20px;
+			}
+			
+			a {
+				display: block;
+				color: #000
+			}
+			
+			.header {
+				position: fixed;
+				top: 0;
+				left: 0;
+				padding: 4px;
+				z-index: 99;
+			}
+			
+			.header .back {
+				font-size: 20px;
+			}
+			.body .header-img{
+				margin-right: 10px;
+			}
+			.reservation-box{
+				margin-bottom: 0;
+			}
+			.right-10{
+				margin-right: 10px;
+			}
+			.top-bottom-border{
+				border-top: 1px solid #000;
+				border-bottom: 1px solid #000;
+				padding: 10px 0;
+			}
+			.footer{
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				padding-left: 30px;
+				z-index: 99;
+				
+				background: #C0C0C0;
+			}
+			.checkbox label{
+				margin-right: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- 头部 开始 -->
+		<div class="bg-primary header col-xs-12">
+			<a href="#" class="back btn btn-default btn-xs col-xs-2 text-center">
+				<i class="glyphicon glyphicon-arrow-left"></i>
+			</a>
+		</div>
+		<!-- 头部 结束 -->
+		
+		<!-- 主体 开始 -->
+		<div class="container-fluid body">
+			<div class="row">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="clearfix">
+							<div class="pull-left header-img">
+								<img src="img/headerImg.png" width="80" class="img-thumbnail" />
+							</div>	
+							<div class="pull-left">
+								<p>
+									名字
+								</p>
+								<p>
+									电话：<span>123456465</span>
+								</p>
+								<p>
+									特色课程：<span>高数</span>
+								</p>
+							</div>
+						</div>
+						<div class="">
+							培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍
+							培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍
+							培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍培训班详细介绍
+						</div>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="panel panel-default reservation-box">
+								<div class="panel-body">
+								    <div class="clearfix">
+										<p class="pull-left right-10">课程：<span>初三数学</span></p>
+										<p class="pull-left right-10">开课：<span>7/18</span></p>
+										<p class="pull-left">课时：<span>2.5x22</span></p>
+										<div class="pull-right">
+											<a href="#" class="btn btn-default btn-xs">课表</a>
+										</div>
+									</div>
+									<p>报名费：<span>2000</span>元</p>
+									<div class="clearfix">
+										<p class="pull-left">最低开课人数：<span>5</span>人</p>
+										<p class="pull-right">已加入<span>3</span>人</p>
+									</div>
+									<div class="alert alert-info text-center">
+										<p>报名可：<span>220</span>元&nbsp;&nbsp;最低代：<span>220</span>元&nbsp;>></p>
+										<p>
+											开课第一天展示最终报名人数和报名卡代金票
+										</p>
+										<div class=" clearfix">
+											<a href="#" class="btn btn-default col-xs-6 col-xs-offset-3">预约</a>
+										</div>
+									</div>
+									<div class="row top-bottom-border">
+										<p>环境展示</p>
+										<div class="clearfix">
+											<img src="img/headerImg.png" class="img-responsive col-xs-3 img-thumbnail"/>
+											<img src="img/headerImg.png" class="img-responsive col-xs-3 img-thumbnail"/>
+											<img src="img/headerImg.png" class="img-responsive col-xs-3 img-thumbnail"/>
+											<img src="img/headerImg.png" class="img-responsive col-xs-3 img-thumbnail"/>
+										</div>
+									</div>
+								
+								</div>
+								<div>
+									其他课程
+								</div>
+							</div>		
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 结束 -->
+		
+		<!-- 底部 开始 -->
+		<div class="footer col-xs-12">
+			<div class="row">
+				<div class="pull-left">
+					<div class="checkbox">
+					    <label>
+					      <input type="checkbox"> 全选
+					    </label>
+					 	合计：1800元
+					</div>
+				</div>
+				<div class="btn-group pull-right">
+					<a href="#" class="btn btn-default">结算</a>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 结束 -->
+	</body>
+
+</html>

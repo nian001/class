@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+			body {
+				font-size: 12px;
+				font-family: "微软雅黑";
+				color: #000;
+				padding-top: 42px;
+				overflow-x: hidden;
+			}
+			
+			a {
+				display: block;
+				color: #000
+			}
+			.header {
+				position: fixed;
+				top: 0;
+				left: 0;
+				padding: 4px;
+				z-index: 99;
+			}
+			.header .back {
+				font-size: 20px;
+			}
+			.right-10{
+				margin-right: 20px;
+			}
+			.line-right{
+				border-right: 1px solid #8C8C8C;
+			}
+			.pay-box{
+				padding-bottom: 10px;
+				padding-top: 10px;
+				background: #ccc;
+			}
+			.pay-box .col-xs-4{
+				padding-left: 6px;
+				padding-right: 6px;
+			}
+			.row{
+				margin-bottom: 10px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #000;
+				
+			}
+			.header-hint{
+				padding-bottom: 10px;
+			}
+			.footer-hint{
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- 头部 开始 -->
+		<div class="bg-primary header col-xs-12">
+			<a href="#" class="back btn btn-default btn-xs col-xs-2 text-center">
+				<i class="glyphicon glyphicon-arrow-left"></i>
+			</a>
+		</div>
+		<!-- 头部 结束 -->
+		
+		<!-- 主体 开始 -->
+		<div class="panel panel-default send-word-box">
+			<div class="panel-heading">
+				<h3 class="panel-title text-center">上课卡</h3>
+			</div>
+			<div class="panel-body">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="clearfix">
+							<span class="pull-left">培训班名字</span>
+							<span class="pull-right">已上课</span>
+						</div>
+						<div class="clearfix">
+							<p class="pull-left right-10">课程：<span>初三数学</span></p>
+							<p class="pull-left right-10">开课：<span>7/18</span></p>
+							<p class="pull-right">课时：<span>2.5x22</span></p>
+						</div>
+						<div>
+							报名费用：<span>2000</span>元
+						</div>
+						<div class="text-right">
+							已加入<span>5</span>人
+						</div>
+						<div class="pay-box clearfix">
+							<div class="col-xs-4 line-right text-center">
+								<p>已支付上课卡:</p>
+								<p>200元</p>
+							</div>
+							<div class="col-xs-4 line-right text-center text-primary">
+								<p>上课卡实代:</p>
+								<p>300元</p>
+							</div>
+							<div class="col-xs-4 text-right">
+								<p>2117.2.26</p>
+								<p>03:21</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="clearfix">
+							<span class="pull-left">培训班名字</span>
+							<span class="pull-right">已过期</span>
+						</div>
+						<div class="clearfix">
+							<p class="pull-left right-10">课程：<span>初三数学</span></p>
+							<p class="pull-left right-10">开课：<span>7/18</span></p>
+							<p class="pull-right">课时：<span>2.5x22</span></p>
+						</div>
+						<div>
+							报名费用：<span>2000</span>元
+						</div>
+						<div class="text-right">
+							已加入<span>5</span>人
+						</div>
+						<div class="pay-box clearfix">
+							<div class="col-xs-4 line-right text-center">
+								<p>已支付上课卡:</p>
+								<p>200元</p>
+							</div>
+							<div class="col-xs-4 line-right text-center text-primary">
+								<p>上课卡实代:</p>
+								<p>300元</p>
+							</div>
+							<div class="col-xs-4 text-right">
+								<p>2117.2.26</p>
+								<p>03:21</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="clearfix">
+							<span class="pull-left">培训班名字</span>
+							<span class="pull-right">已取消</span>
+						</div>
+						<div class="clearfix">
+							<p class="pull-left right-10">课程：<span>初三数学</span></p>
+							<p class="pull-left right-10">开课：<span>7/18</span></p>
+							<p class="pull-right">课时：<span>2.5x22</span></p>
+						</div>
+						<div>
+							报名费用：<span>2000</span>元
+						</div>
+						<div class="clearfix">
+							<p class="pull-left">最低开课人数：<span>5</span>人</p>
+							<p class="pull-right">未达最低开课人数</p>
+						</div>
+						<div class="pay-box clearfix">
+							<div class="col-xs-4 line-right text-center">
+								<p>已支付上课卡:</p>
+								<p>200元</p>
+							</div>
+							<div class="col-xs-4 line-right text-center text-primary">
+								<p>上课卡实代:</p>
+								<p>300元</p>
+							</div>
+							<div class="col-xs-4 text-right">
+								<p>2117.2.26</p>
+								<p>03:21</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="clearfix header-hint">
+							<span class="pull-left">请在开课24小时以前退课，过时不退还上课卡</span>
+							<a href="#" class="btn btn-warning btn-xs pull-right">退课</a>
+						</div>
+						<div class="clearfix">
+							<span class="pull-left">培训班名字</span>
+							<span class="pull-right">待上课</span>
+						</div>
+						<div class="clearfix">
+							<p class="pull-left right-10">课程：<span>初三数学</span></p>
+							<p class="pull-left right-10">开课：<span>7/18</span></p>
+							<p class="pull-right">课时：<span>2.5x22</span></p>
+						</div>
+						<div>
+							报名费用：<span>2000</span>元
+						</div>
+						<div class="clearfix">
+							<p class="pull-left">最低开课人数：<span>5</span>人</p>
+							<p class="pull-right">可开课</p>
+						</div>
+						<div class="pay-box clearfix">
+							<div class="col-xs-4 line-right text-center">
+								<p>已支付上课卡:</p>
+								<p>200元</p>
+							</div>
+							<div class="col-xs-4 line-right text-center text-primary">
+								<p>上课卡实代:</p>
+								<p>300元</p>
+							</div>
+							<div class="col-xs-4 text-right">
+								<p>2117.2.26</p>
+								<p>03:21</p>
+							</div>
+						</div>
+						<div class="text-center footer-hint">
+							请在开课24小时以前退课，过时不退款
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 结束 -->
+	</body>
+
+</html>
